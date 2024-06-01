@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package example;
+
+service Example {
+    rpc AuthenticatedEcho(AuthenticatedEchoRequest) returns (AuthenticatedEchoResponse);
+}
+
+message AuthenticatedEchoRequest {
+    string message = 1;
+}
+
+message AuthenticatedEchoResponse {
+    string message = 1;
+}

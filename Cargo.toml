@@ -1,0 +1,8 @@
+[package]
+name = "grpc-biscuit"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+biscuit-auth = "4.1.1"
+tonic = "0.11.0"
